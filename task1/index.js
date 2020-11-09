@@ -6,7 +6,7 @@ const rl = readline.createInterface({
 });
 
 
-rl.question('Please enter the first number: ', (n) => {
+rl.question('Please enter the number: ', (n) => {
     const fx = (n) => +Math.max(...(n + '').split(''));
     const fn = (n) => +Math.min(...(n + '').split(''));
 
